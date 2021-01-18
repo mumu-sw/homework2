@@ -1,6 +1,7 @@
 # homework2
 第二期作业
 
+## 需求
 利用这个api
 http://api.hunsh.net/s1/?page=1&q=
 做一个搜索
@@ -12,6 +13,8 @@ http://ocw.ibeike.ustb.edu.cn/search?kw=%E6%95%B0%E5%AD%A6
 不过别做的一样
 
 可以做小程序，也可以做一个html单页（进阶需求）
+
+## 指导
 
 先Fork
 
