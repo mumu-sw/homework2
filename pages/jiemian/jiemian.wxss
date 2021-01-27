@@ -1,0 +1,29 @@
+.header,meta,.list,.item,.meta,.pagenation{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.meta{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.list,
+.item{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.download{
+  margin-left: 1em;
+}
+.item{
+  width: 100%;
+  padding: 16px 24px;
+  border-bottom: 1px solid #eeeeee;
+}
+.pagenation{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+  justify-content: space-around;
+}

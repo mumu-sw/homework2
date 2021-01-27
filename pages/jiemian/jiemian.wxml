@@ -1,0 +1,14 @@
+<view class="header">
+  <input placeholder="请输入" type="text" confirm-type="search" bindinput="handleInput"></input>
+  <button bindtap="handleTap">搜索</button>
+</view>
+<view class="list">
+<view class="item" wx:for="{{data}}">
+<view class="name">{{item.name}}</view>
+<view class="meta"><view class="teacher">{{item.teacher}}</view><view class="download">{{item.download}}</view></view>
+<view class="time">{{item.create_time}}</view>
+</view>
+</view>
+<view class="pagenation">
+  <view class="i" wx:for="{{pp}}" wx:key="*this" bindtap="handlePageChange" data-page="{{item}}">{{item}}</view>
+</view>
